@@ -1,0 +1,42 @@
+-- build.settings for project: Yoga
+-- Managed with http://CoronaProjectManager.com
+-- Copyright 2012 Admin H100. All Rights Reserved.
+-- cpmgen build.settings
+settings =
+{
+	orientation =
+	{
+		supported =
+		{
+			"landscapeLeft","landscapeRight","portrait","portraitUpsideDown"
+		},
+	},
+
+
+    iphone =
+    {
+        plist =
+        {
+            UIInterfaceOrientation = "UIInterfaceOrientationLandscapeLeft",
+ 
+            UISupportedInterfaceOrientations =
+            {
+				"UIInterfaceOrientationLandscapeLeft",
+				"UIInterfaceOrientationLandscapeRight",
+				"UIInterfaceOrientationPortrait",
+				"UIInterfaceOrientationPortraitUpsideDown"
+            },
+            
+            UIAppFonts = 
+            {
+
+            	"Garamound Bold.ttf",
+            	"Garamound.ttf",
+            	"Garamound Italic.ttf",
+
+            	
+            }
+            
+        }
+    }
+}
